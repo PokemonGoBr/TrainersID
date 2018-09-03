@@ -28,6 +28,9 @@ $("#example-table").tabulator({
     {title:"Bairro", field:"bairro", sortable:false},
     {title:"Cidade", field:"cidade"},
   ],
+  rowClick:function(e, row){ //trigger an alert message when the row is clicked
+        alert("Row " + row.getData().inviteID + " Clicked!!!!");
+    },
 });
 
 $("#example-table").tabulator("setData",data.trainers);
