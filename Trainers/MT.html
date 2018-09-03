@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/tabulator/3.5.3/css/tabulator.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tabulator/3.5.3/js/tabulator.min.js"></script>
+
+</head>
+<body>
+
+<div id="example-table"></div>
+
+</body>
+<script>
+
+var getRequest = $.getJSON("https://raw.githubusercontent.com/PokemonGoBr/TrainersID/master/Trainers/MT.json");
+
+getRequest.done(function(data){
+
+
+$("#example-table").tabulator({
+  columns:[
+    {title:"Nick", field:"nick", sortable:true, width:200},
+    {title:"Invite ID", field:"inviteID", sortable:false},
+    {title:"Equipe", field:"team", sortable:true},
+    {title:"Nível", field:"nv", sortable:true},
+    {title:"Bairro", field:"bairro", sortable:false},
+    {title:"Cidade", field:"cidade"},
+  ],
+});
+
+$("#example-table").tabulator("setData",data);
+});
+
+</script>
+</html>
