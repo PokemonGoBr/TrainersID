@@ -5,6 +5,8 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tabulator/3.5.3/js/tabulator.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+
 
 </head>
 <body>
@@ -29,8 +31,15 @@ $("#example-table").tabulator({
     {title:"Cidade", field:"cidade"},
   ],
   rowClick:function(e, row){ //trigger an alert message when the row is clicked
-        alert("Row " + row.getData().inviteID + " Clicked!!!!");
-    },
+    var tempInput = document.createElement("input");
+    tempInput.style = "position: absolute; left: -1000px; top: -1000px";
+    tempInput.value = row.getData().inviteID;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand("copy");
+    document.body.removeChild(tempInput);
+    alert("ID Copiado");
+},
 });
 
 $("#example-table").tabulator("setData",data.trainers);
