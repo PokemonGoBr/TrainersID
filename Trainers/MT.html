@@ -23,13 +23,15 @@ getRequest.done(function(data){
 
 $("#example-table").tabulator({
   columns:[
-    {title:"Nick", field:"nick", sortable:true, width:200},
+    {title:"Nick", field:"nick", sortable:true, width:200, headerFilter:"input"},
     {title:"Invite ID", field:"inviteID", sortable:false},
-    {title:"Equipe", field:"team", sortable:true},
-    {title:"Nível", field:"nv", sortable:true},
-    {title:"Bairro", field:"bairro", sortable:false},
-    {title:"Cidade", field:"cidade"},
+    {title:"Equipe", field:"team", sortable:true, headerFilter:"input"},
+    {title:"Nível", field:"nv", sortable:true, headerFilter:"input"},
+    {title:"Bairro", field:"bairro", sortable:false, headerFilter:"input"},
+    {title:"Cidade", field:"cidade", headerFilter:"input"},
   ],
+  layout:"fitDataFill",
+  responsiveLayout:"hide",
   rowClick:function(e, row){ //trigger an alert message when the row is clicked
     var tempInput = document.createElement("input");
     tempInput.style = "position: absolute; left: -1000px; top: -1000px";
