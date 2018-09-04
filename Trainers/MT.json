@@ -1,7 +1,7 @@
 {
 "trainers": 
 [
-{"nick":"rafaelmourab", "team":"valor", "nv":"23", "bairro":"Poção", "cidade":"Cuiabá","inviteID" : "1234 1234 1234"},
+{"nick":"rafaelmourab", "team":"valor", "nv":"24", "bairro":"Poção", "cidade":"Cuiabá","inviteID" : "1234 1234 1234"},
 {"nick":"KonradosHut", "team":"?", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "9690 3520 9081"},
   {"nick":"BelaPaiva", "team":"?", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "5271 9864 8897"},
   {"nick":"Walvin", "team":"time", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "5100 2318 8304"},
@@ -26,7 +26,7 @@
   {"nick":"FERBAR4", "team":"time", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "0215 8973 3068"},
   {"nick":"FerBR2c", "team":"time", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "8264 9476 8157"},
   {"nick":"guiifausto", "team":"time", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "5105 1851 4627"},
-  {"nick":"GangstaKirby", "team":"time", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "5862 9213 8923"},
+  {"nick":"GangstaKirby", "team":"Mystic", "nv":"39", "bairro":"Jardim das Americas", "cidade":"Cuiabá","inviteID" : "5862 9213 8923"},
   {"nick":"ShadeBlack", "team":"time", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "3305 7531 1836"},
   {"nick":"OguhRaiuga", "team":"time", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "8346 3834 1176"},
   {"nick":"MrBuenOX", "team":"time", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "2863 3279 9732"},
@@ -44,6 +44,7 @@
   {"nick":"Demenem2", "team":"time", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "440176547109"},
   {"nick":"hkoberstain", "team":"time", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "4602 2148 2984"},
   {"nick":"Lihnbet4", "team":"time", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "4689 0219 7109"},
-  {"nick":"LeoZuchini", "team":"time", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "3614 7075 8335"}
+  {"nick":"LeoZuchini", "team":"time", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "3614 7075 8335"},
+    {"nick":"DanAlmeida92", "team":"Mystic", "nv":"40", "bairro":"Residencial Planalto", "cidade":"Cuiabá","inviteID" : "3306 9672 3895"}
 ]
 } 
