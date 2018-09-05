@@ -10,7 +10,11 @@
     {"nick":"lceOneCBA", "team":"time", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "8149 1022 4378"},
     {"nick":"Jefersonpkl", "team":"time", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "7510 5895 7747"},
     {"nick":"SissiMSilva", "team":"time", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "3358 2940 4781"},
-    {"nick":"Miliats", "team":"time", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "3481 8707 9720"},
+    {"nick":"Miliats", "team":"Mystic", "nv":"0", "bairro":"Jardim Europa", "cidade":"Cuiabá","inviteID" : "3481 8707 9720"},
+    {"nick":"Fabiadeas", "team":"Mystic", "nv":"40", "bairro":"Jardim Europa", "cidade":"Cuiabá","inviteID":"6468 2647 2620"},
+    {"nick":"ElaineCrisMlts", "team":"Mystic", "nv":"40", "bairro":"Dom Aquino", "cidade":"Cuiabá","inviteID":"5361 4594 6323"},
+    {"nick":"SergioLuisMlts", "team":"Mystic", "nv":"40", "bairro":"Dom Aquino", "cidade":"Cuiabá","inviteID":"9018 3620 6995"},
+    
     {"nick":"YuriPeixoto", "team":"Valor", "nv":"37", "bairro":"Residencial Despraiado", "cidade":"Cuiabá","inviteID" : "2151 4909 5469"},
     {"nick":"ZzZKarmaZzZ", "team":"time", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "2995 7826 9430"},
     {"nick":"AryLO93", "team":"time", "nv":"0", "bairro":"bairro", "cidade":"Cuiabá","inviteID" : "2410 3036 1939"},
@@ -50,5 +54,6 @@
     {"nick":"NakanoXPZ", "team":"Mystic", "nv":"24", "bairro":"UFMT", "cidade":"Cuiabá","inviteID" : "7935 2659 4017"},
     {"nick":"Hallowenih", "team":"Mystic", "nv":"22", "bairro":"Cristo Rei", "cidade":"Várzea grande","inviteID":"7704 0571 6025"},
     {"nick":"FairyB", "team":"Valor", "nv":"40", "bairro":"CPA I", "cidade":"Cuiabá","inviteID":"1909 7008 3249"}
+
   ]
 } 
